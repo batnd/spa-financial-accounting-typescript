@@ -1,0 +1,12 @@
+main {
+  .container {
+    .content {
+      .category-actions {
+        gap: 10px;
+        label:last-of-type {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

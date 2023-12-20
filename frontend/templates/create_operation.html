@@ -1,0 +1,31 @@
+<div class="content">
+    <h1 id="operationTitle" class="text-primary-emphasis">Создание дохода/расхода</h1>
+    <div class="category-actions create d-flex flex-column">
+        <label class="w-100">
+            <select disabled id="operationType" class="disabledSelect category-actions-input form-control">
+                <option value="">Тип...</option>
+                <option id="selectIncome" value="income">Доход</option>
+                <option id="selectExpense" value="expense">Расход</option>
+            </select>
+        </label>
+        <label class="w-100">
+            <select id="operationCategory" class="category-actions-input form-control">
+                <option value="">Категория...</option>
+            </select>
+        </label>
+        <label class="w-100">
+            <input id="operationAmount" class="category-actions-input form-control" placeholder="Сумма в $..." type="number">
+        </label>
+        <label class="w-100 ">
+            <input id="operationDate" class="category-actions-input form-control" placeholder="Дата..." type="date" max="9999-12-31">
+        </label>
+        <label class="w-100">
+<!--            <input id="operationComment" class="category-actions-input form-control" placeholder="Комментарий..." type="text">-->
+            <textarea id="operationComment" class="category-actions-input form-control" placeholder="Комментарий..." type="text"></textarea>
+        </label>
+        <div class="category-actions-buttons d-flex justify-content-start">
+            <button class="btn-create btn-common btn border-0 btn-success">Создать</button>
+            <button class="btn-cancel btn-common btn border-0 btn-danger">Отмена</button>
+        </div>
+    </div>
+</div>

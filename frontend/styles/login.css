@@ -1,0 +1,12 @@
+.content {
+  min-height: 100vh;
+}
+.sign-checkbox {
+  margin-bottom: 20px;
+}
+.sign-checkbox label, .registration {
+  font-size: 12px;
+}
+.sign-input-end {
+  margin-bottom: 20px;
+}

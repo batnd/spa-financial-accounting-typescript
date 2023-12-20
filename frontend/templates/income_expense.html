@@ -1,0 +1,40 @@
+<div class="content">
+    <h1 class="text-primary-emphasis">Доходы и расходы</h1>
+    <div class="operation-actions d-flex justify-content-start">
+        <button class="btn-createIncome btn-common btn btn-success">Создать доход</button>
+        <button class="btn-createExpense btn-common btn btn-danger">Создать расход</button>
+    </div>
+    <div class="filter d-flex flex-row flex-wrap">
+        <button id="today" class="filterButton btn btn-outline-secondary active" data-bs-toggle="button">Сегодня</button>
+        <button id="week" class="filterButton btn btn-outline-secondary" data-bs-toggle="button">Неделя</button>
+        <button id="month" class="filterButton btn btn-outline-secondary" data-bs-toggle="button">Месяц</button>
+        <button id="year" class="filterButton btn btn-outline-secondary" data-bs-toggle="button">Год</button>
+        <button id="all" class="filterButton btn btn-outline-secondary" data-bs-toggle="button">Все</button>
+        <button id="interval" class="filterButton btn btn-outline-secondary" data-bs-toggle="button">Интервал</button>
+        <div class="filter-date d-flex flex-row align-items-center">
+            <div class="m-0 d-flex">с &nbsp;&nbsp;
+                <input id="filterDateFrom" class="filterInput border-0 text-decoration-underline" type="text" placeholder="Дата">
+            </div>
+            <div class="m-0 d-flex">по &nbsp;&nbsp;
+                <input id="filterDateTo" class="filterInput border-0 text-decoration-underline" type="text" placeholder="Дата">
+            </div>
+        </div>
+    </div>
+    <div class="operation-list table-responsive">
+        <table class="table table-hover border-top">
+            <thead class="operations-title text-center align-middle">
+            <tr>
+                <th style="width: 135px" scope="col">№ операции</th>
+                <th style="width: 121px" scope="col">Тип</th>
+                <th style="width: 217px" scope="col">Категория</th>
+                <th style="width: 90px" scope="col">Сумма</th>
+                <th style="width: 150px" scope="col">Дата</th>
+                <th style="width: 280px" scope="col">Комментарий</th>
+                <th scope="col"></th>
+            </tr>
+            </thead>
+            <tbody id="tableBody" class="operations-elements text-center align-middle">
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+main {
+  .container {
+    .content {
+      .operation-actions {
+        gap: 10px;
+        margin-bottom: 40px;
+        button {
+          font-weight: 500;
+        }
+      }
+      .filter {
+        margin-bottom: 40px;
+      }
+      .operation-list {
+        max-width: 1100px;
+        table {
+          tr {
+            height: 50px;
+          }
+          .operations-title {
+            tr {
+              th {
+                color: #052C65;
+              }
+            }
+          }
+          .operations-elements {
+            tr {
+              td {
+                .operations-icons {
+                  gap: 11px;
+                  div {
+                    cursor: pointer;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

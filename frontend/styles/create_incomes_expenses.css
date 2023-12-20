@@ -1,0 +1,6 @@
+main .container .content .category-actions {
+  gap: 10px;
+}
+main .container .content .category-actions label:last-of-type {
+  margin-bottom: 10px;
+}
